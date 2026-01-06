@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
 
           <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Researcher in Computer Vision, Medical Image Analysis, NLP & Explainable AI. Seeking graduate studies or research assistant opportunities.
+            Interest in Computer Vision, Medical Image Analysis, NLP & Explainable AI. Seeking an AI/ML Developer or Data Scientist role to apply research-backed AI solutions in production-oriented environments.
           </p>
 
           {/* Social Links */}

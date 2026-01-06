@@ -43,13 +43,13 @@ export const portfolioData = {
       ],
     },
     {
-      title: "Executive Member",
+      title: "Research Intern",
       company: "4IR Research Cell, Daffodil International University",
       location: "Dhaka, Bangladesh",
       period: "04/2024 – 12/2024",
       description: [
         "Contributed to computer vision research projects and agricultural disease detection.",
-        "Assisted in dataset preparation, model experimentation, and comparative analysis.",
+        "Performed dataset preparation, model experimentation, and comparative analysis.",
       ],
     },
     {

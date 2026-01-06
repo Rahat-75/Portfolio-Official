@@ -11,7 +11,7 @@ const Contact = () => {
           </h2>
           <div className="w-16 h-1 bg-accent mx-auto mb-4"></div>
           <p className="text-muted-foreground text-center mb-12 max-w-xl mx-auto">
-            I'm actively seeking graduate studies or research assistant opportunities. Feel free to reach out!
+            Seeking an AI/ML Developer or Data Scientist role to apply research-backed AI solutions in production-oriented environments. Feel free to reach out!
           </p>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-3xl mx-auto">
