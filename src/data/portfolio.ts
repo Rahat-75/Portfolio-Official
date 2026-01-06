@@ -3,11 +3,11 @@ export const portfolioData = {
   title: "BSc. in Computer Science and Engineering",
   email: "Irabbi15-4583@diu.edu.bd",
   phone: "+8801977116695",
-  location: "Arichpur, Tongi Bazar, Tongi-1710, Gazipur, Bangladesh",
+  location: "Arichpur, Tongi-1710, Gazipur, Bangladesh",
   linkedin: "https://linkedin.com/in/rabbi-rahat-cse",
   github: "https://github.com/Rahat-75",
   skype: "rabbi.rahat.15",
-  bio: "A Computer Science and Engineering graduate with a strong academic record and research interests in Computer Vision, Medical Image Analysis, Natural Language Processing, and the Agricultural field. Ranked among the top students of the graduating batch with consistent academic excellence from SSC to the undergraduate level. Experienced in data preprocessing, applied machine learning, deep learning frameworks, and research documentation. Currently working on explainable AI and diffusion models, with research interests focused on interpretable and trustworthy AI systems. Actively seeking graduate studies or research assistant opportunities.",
+  bio: "Computer Science and Engineering graduate with a strong academic record and interests in NLP, computer vision, and medical image analysis. Contributed to end-to-end ML pipelines, comparative model evaluation, and research-driven AI systems with a focus on efficiency, interpretability, and real-world applicability. Experienced in multiple applied AI research projects across fake news detection, remote sensing scene classification, agricultural disease diagnosis, and healthcare AI. Seeking an AI/ML Developer or Data Scientist role to apply research-backed AI solutions in production-oriented environments.",
 
   skills: [
     {
@@ -16,7 +16,7 @@ export const portfolioData = {
     },
     {
       category: "Machine Learning & AI",
-      items: ["Machine Learning", "Deep Learning", "Computer Vision", "Medical Image Analysis", "Explainable AI (XAI)", "Diffusion Models", "Federated Learning"],
+      items: ["Machine Learning", "Deep Learning", "Computer Vision", "Transfer Learning", "Medical Image Analysis", "Explainable AI (XAI)", "Diffusion Models", "Federated Learning"],
     },
     {
       category: "Frameworks",
@@ -35,11 +35,11 @@ export const portfolioData = {
       location: "Dhaka, Bangladesh",
       period: "01/2025 – Present",
       description: [
-        "Conducting literature reviews to identify research gaps.",
-        "Designing research methodology for ML/DL-based research.",
-        "Applying knowledge distillation, Explainable AI (XAI) techniques, and model optimization strategies.",
+        "Conducting literature reviews to identify research gaps in medical AI and healthcare analytics.",
+        "Designing research methodology for ML/DL-based healthcare applications.",
+        "Applying diffusion models, knowledge distillation, XAI, and model optimization techniques.",
         "Writing & formatting research proposals, manuscripts, and technical documentation.",
-        "Collaborating with supervisors and team members.",
+        "Collaborating with supervisors and multidisciplinary research teams.",
       ],
     },
     {
@@ -48,8 +48,8 @@ export const portfolioData = {
       location: "Dhaka, Bangladesh",
       period: "04/2024 – 12/2024",
       description: [
-        "Contributed to applied research in computer vision and ensemble learning.",
-        "Assisted in experimental evaluation, result analysis, and academic writing.",
+        "Contributed to computer vision research projects and agricultural disease detection.",
+        "Assisted in dataset preparation, model experimentation, and comparative analysis.",
       ],
     },
     {
@@ -58,7 +58,8 @@ export const portfolioData = {
       location: "Dhaka, Bangladesh",
       period: "07/2023 – 03/2024",
       description: [
-        "Supported research activities, seminars, and internal coordination.",
+        "Contributed to NLP projects focused on text summarization,  classification, and generation.",
+        "Assisted with documentation, seminars, internal coordination, and organizational tasks.",
       ],
     },
   ],
@@ -69,21 +70,14 @@ export const portfolioData = {
       institution: "Daffodil International University",
       location: "Dhaka, Bangladesh",
       period: "09/2021 – 10/2025",
-      description: "CGPA: 3.84/4.00 | Credits: 148 | Merit Position: Ranked 10th out of 222 graduating students (Top 5%)",
+      description: "CGPA: 3.84/4.00 | Top 5% of graduating cohort | Number of credits: 148 |",
       thesis: "An Approach to Improve the Efficiency of Deep Learning Framework for Skin Cancer Classification Utilizing Dermoscopy Images.",
     },
     {
       degree: "Higher Secondary Certificate",
-      institution: "Jatir Janak Bangabandhu Sheikh Mujibur Rahman Govt. College",
+      institution: "Uttara Government College",
       location: "Dhaka, Bangladesh",
       period: "2020",
-      description: "GPA: 5.00/5.00 | Science",
-    },
-    {
-      degree: "Secondary School Certificate",
-      institution: "Siraj Uddin Sarker Vidyaniketan & College",
-      location: "Dhaka, Bangladesh",
-      period: "2017",
       description: "GPA: 5.00/5.00 | Science",
     },
   ],
@@ -101,20 +95,21 @@ export const portfolioData = {
       journal: "IEEE",
       year: "2025",
       doi: "https://doi.org/10.1109/icctdc64446.2025.11158737",
-      authors: "A. Rabbi, M. H. Salman, A. Rahman, J. Amin, S. S. Khan, and M. S. Rahman",
+      authors: "Md. Abdul Rabbi Rahat, Mehedi Hasan Salman, Ashab Rahman, James Amin, Sadman Sadik Khan, and Md. Sadekur Rahman",
     },
     {
       title: "Deep Learning Approaches for Scene Classification in Remote Sensing Imagery",
       journal: "Springer, Singapore",
       year: "2025",
       doi: "https://doi.org/10.1007/978-981-96-7059-8_13",
-      authors: "M. H. Salman, Md. A. R. Rahat, A. Rahman, S. S. Khan, and Md. S. Rahman",
+      authors: "Mehedi Hasan Salman, Md. Abdul Rabbi Rahat, Ashab Rahman, Sadman Sadik Khan, and Md. Sadekur Rahman",
     },
     {
       title: "A Comparative Study of Deep Learning Architectures for Banana Leaf Disease Classification",
       journal: "IEEE - ICCCNT 2025",
       year: "2025",
-      authors: "A. Rahman, Md. Abdul Rabbi Rahat, S. Hossain, and Sarmin Rahman Mim",
+      doi: "https://www.researchgate.net/publication/396679690"
+      authors: "Ashab Rahman, Md. Abdul Rabbi Rahat, Sazzad Hossain, and Sarmin Rahman Mim",
     },
   ],
 
@@ -123,21 +118,21 @@ export const portfolioData = {
       title: "DIU Insurance Management System",
       type: "Full-Stack Web Application",
       period: "01/2025 – 06/2025",
-      description: "Designed and developed a full-stack insurance management platform with HTML, CSS, JavaScript, PHP, and MySQL. Implemented authentication, database integration, and CRUD operations.",
+      description: "Designed and developed a role-based insurance management system using HTML,CSS, PHP, MySQL, and JavaScript. Implemented secure authentication, CRUD operations, dynamic dashboards, and ticket-based support workflows with relational database design for scalable insurance operations.",
       technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     },
     {
       title: "Smart Attendance System",
       type: "IoT & ML Project",
       period: "07/2024 – 12/2024",
-      description: "Developed an IoT-based Smart Attendance System integrating ML-based authentication. Implemented database-driven record management. Demonstrated real-world ML deployment and system integration.",
+      description: "Developed an IoT-based smart attendance system integrating ML-based face recognition for automated attendance. Implemented a FastAPI-based backend for image processing and face recognition, with database-driven attendance logging and real-time device–server integration.",
       technologies: ["IoT", "Machine Learning", "Database Management"],
     },
     {
       title: "Home Finder",
       type: "Mobile Application",
       period: "02/2024 – 06/2024",
-      description: "Developed a cross-platform mobile application with Flutter, Dart for property searching, rent management, shifting, and interior design services. Implemented user-friendly UI and dynamic data handling.",
+      description: "Developed a Flutter-based cross-platform mobile application for property searching, rent management, home shifting services, and interior design services. Implemented search and filtering, user profiles, notifications, and dynamic data handling to support multi-service workflows within a unified mobile platform.",
       technologies: ["Flutter", "Dart", "Mobile Development"],
     },
   ],
