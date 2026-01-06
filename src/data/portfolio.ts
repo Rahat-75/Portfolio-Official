@@ -108,7 +108,7 @@ export const portfolioData = {
       title: "A Comparative Study of Deep Learning Architectures for Banana Leaf Disease Classification",
       journal: "IEEE - ICCCNT 2025",
       year: "2025",
-      doi: "https://www.researchgate.net/publication/396679690"
+      doi: "https://www.researchgate.net/publication/396679690",
       authors: "Ashab Rahman, Md. Abdul Rabbi Rahat, Sazzad Hossain, and Sarmin Rahman Mim",
     },
   ],
