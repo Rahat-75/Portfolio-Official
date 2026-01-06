@@ -7,7 +7,7 @@ const Publications = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4 text-center">
-            Publications
+            Research Projects
           </h2>
           <div className="w-16 h-1 bg-accent mx-auto mb-6"></div>
 

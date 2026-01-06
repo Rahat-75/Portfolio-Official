@@ -46,7 +46,7 @@ const Experience = () => {
               {portfolioData.education.map((edu, index) => (
                 <div
                   key={index}
-                  className="bg-card border border-border rounded-xl p-6 max-w-2xl mx-auto"
+                  className="bg-card border border-border rounded-xl p-6"
                 >
                   <span className="text-sm text-accent font-medium">{edu.period}</span>
                   <h4 className="text-xl font-semibold text-foreground mt-2">{edu.degree}</h4>
@@ -62,12 +62,49 @@ const Experience = () => {
             </div>
           </div>
 
+            {/* Certifications */}
+          <div className="mt-16">
+            <h3 className="text-2xl font-serif font-bold text-foreground mb-8 text-center">
+              Certifications
+            </h3>
+            <div className="space-y-4">
+              {portfolioData.certifications.map((cert, index) => (
+                <div
+                  key={index}
+                  className="bg-card border border-border rounded-xl p-6"
+                >
+                  <div className="flex items-center justify-between flex-wrap gap-2 mb-2">
+                    <h4 className="font-semibold text-foreground">{cert.title}</h4>
+                    <span className="text-xs font-medium px-2 py-1 bg-accent text-accent-foreground rounded">
+                      Grade: {cert.grade}
+                    </span>
+                  </div>
+                  <p className="text-sm text-muted-foreground">{cert.issuer}</p>
+                  <p className="text-xs text-muted-foreground mt-1">{cert.date}</p>
+                  <div className="flex flex-wrap gap-1 mt-3">
+                    {cert.skills.slice(0, 5).map((skill) => (
+                      <span
+                        key={skill}
+                        className="px-2 py-0.5 bg-secondary text-secondary-foreground text-xs rounded"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                    {cert.skills.length > 5 && (
+                      <span className="text-xs text-muted-foreground">+{cert.skills.length - 5} more</span>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* Awards */}
           <div className="mt-16">
             <h3 className="text-2xl font-serif font-bold text-foreground mb-8 text-center">
               Honours & Awards
             </h3>
-            <div className="grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+            <div className="grid sm:grid-cols-2 gap-4">
               {portfolioData.awards.map((award, index) => (
                 <div
                   key={index}

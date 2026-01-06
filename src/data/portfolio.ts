@@ -30,7 +30,7 @@ export const portfolioData = {
 
   experience: [
     {
-      title: "Researcher",
+      title: "Research Assistant",
       company: "Health Informatics Research Lab (HIRL)",
       location: "Dhaka, Bangladesh",
       period: "01/2025 – Present",
@@ -120,6 +120,7 @@ export const portfolioData = {
       period: "01/2025 – 06/2025",
       description: "Designed and developed a role-based insurance management system using HTML,CSS, PHP, MySQL, and JavaScript. Implemented secure authentication, CRUD operations, dynamic dashboards, and ticket-based support workflows with relational database design for scalable insurance operations.",
       technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      github: "https://github.com/Rahat-75/DIU-Insurance",
     },
     {
       title: "Smart Attendance System",
@@ -127,6 +128,7 @@ export const portfolioData = {
       period: "07/2024 – 12/2024",
       description: "Developed an IoT-based smart attendance system integrating ML-based face recognition for automated attendance. Implemented a FastAPI-based backend for image processing and face recognition, with database-driven attendance logging and real-time device–server integration.",
       technologies: ["IoT", "Machine Learning", "Database Management"],
+      github: "https://github.com/Rahat-75/Smart-Attendance-System",
     },
     {
       title: "Home Finder",
@@ -134,6 +136,7 @@ export const portfolioData = {
       period: "02/2024 – 06/2024",
       description: "Developed a Flutter-based cross-platform mobile application for property searching, rent management, home shifting services, and interior design services. Implemented search and filtering, user profiles, notifications, and dynamic data handling to support multi-service workflows within a unified mobile platform.",
       technologies: ["Flutter", "Dart", "Mobile Development"],
+      github: "https://github.com/Rahat-75/Home-Finder-APP",  
     },
   ],
 

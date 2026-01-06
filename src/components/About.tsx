@@ -33,7 +33,7 @@ const About = () => {
               <p className="text-lg text-accent font-medium mb-4">
                 {portfolioData.title}
               </p>
-              <p className="text-muted-foreground leading-relaxed mb-6 text-sm">
+              <p className="text-muted-foreground leading-relaxed text-justify mb-6 text-sm">
                 {portfolioData.bio}
               </p>
 
@@ -43,12 +43,12 @@ const About = () => {
                   <p className="text-xl font-bold text-accent">3.84/4.00</p>
                   <p className="text-[10px] text-muted-foreground uppercase tracking-wide">CGPA</p>
                   <span className="inline-block mt-1 text-[9px] font-medium px-1.5 py-0.5 bg-accent text-accent-foreground rounded">Top 5%</span>
-                </div>
-                <div className="bg-gradient-to-br from-green-500/15 to-green-500/5 border border-green-500/30 rounded-lg p-3 text-center">
-                  <p className="text-xl font-bold text-green-600 dark:text-green-400">10th</p>
-                  <p className="text-[10px] text-muted-foreground uppercase tracking-wide">Merit Rank</p>
-                  <span className="inline-block mt-1 text-[9px] font-medium px-1.5 py-0.5 bg-green-500/20 text-green-700 dark:text-green-300 rounded">of 222</span>
-                </div>
+                </div> 
+                 <div className="bg-gradient-to-br from-green-500/15 to-green-500/5 border border-green-500/30 rounded-xl p-4 text-center hover:scale-105 transition-transform">
+              <p className="text-2xl md:text-3xl font-bold text-green-600 dark:text-green-400">90%</p>
+              <p className="text-xs text-muted-foreground">Scholarship</p>
+              <span className="inline-block mt-1 text-[10px] font-medium px-2 py-0.5 bg-green-500/20 text-green-700 dark:text-green-300 rounded-full">Merit-Based</span>
+            </div>
               </div>
 
               <div className="space-y-3">

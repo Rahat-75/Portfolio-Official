@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
 
           <p className="text-base md:text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Interest in Computer Vision, Medical Image Analysis, NLP & Explainable AI. Seeking an AI/ML Developer or Data Scientist role to apply research-backed AI solutions in production-oriented environments.
+            Experienced in Computer Vision, Medical Image Analysis, NLP & Explainable AI. Seeking an AI/ML Developer or Data Scientist role to apply research-backed AI solutions in production-oriented environments.
           </p>
 
           {/* Social Links */}
@@ -53,22 +53,19 @@ const Hero = () => {
           </div>
 
           {/* Stats Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10 max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10 max-w-2xl mx-auto">
             <div className="bg-gradient-to-br from-accent/20 to-accent/5 border border-accent/30 rounded-xl p-4 text-center hover:scale-105 transition-transform">
               <p className="text-2xl md:text-3xl font-bold text-accent">3.84</p>
               <p className="text-xs text-muted-foreground">CGPA / 4.00</p>
               <span className="inline-block mt-1 text-[10px] font-medium px-2 py-0.5 bg-accent text-accent-foreground rounded-full">Top 5%</span>
             </div>
-            <div className="bg-gradient-to-br from-primary/10 to-primary/5 border border-border rounded-xl p-4 text-center hover:scale-105 transition-transform">
-              <p className="text-2xl md:text-3xl font-bold text-foreground">{portfolioData.publications.length}</p>
+           
+            <div className="bg-gradient-to-br from-green-500/20 to-green-500/10 border border-green-500/30 rounded-xl p-4 text-center hover:scale-105 transition-transform">
+              <p className="text-2xl md:text-3xl font-bold text-green-600 dark:text-green-400">{portfolioData.publications.length}</p>
               <p className="text-xs text-muted-foreground">Publications</p>
-              <span className="inline-block mt-1 text-[10px] font-medium px-2 py-0.5 bg-secondary text-secondary-foreground rounded-full">IEEE • Springer</span>
+              <span className="inline-block mt-1 text-[10px] font-medium px-2 py-0.5 bg-green-500/20 text-green-700 dark:text-green-300 rounded-full">IEEE • Springer • Nature</span>
             </div>
-            <div className="bg-gradient-to-br from-green-500/15 to-green-500/5 border border-green-500/30 rounded-xl p-4 text-center hover:scale-105 transition-transform">
-              <p className="text-2xl md:text-3xl font-bold text-green-600 dark:text-green-400">90%</p>
-              <p className="text-xs text-muted-foreground">Scholarship</p>
-              <span className="inline-block mt-1 text-[10px] font-medium px-2 py-0.5 bg-green-500/20 text-green-700 dark:text-green-300 rounded-full">Merit-Based</span>
-            </div>
+            
           </div>
 
           {/* CTA Buttons */}
